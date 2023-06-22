@@ -1,0 +1,63 @@
+@import url(Main.css);
+
+.User-login{
+    padding-top: 5px
+}
+
+.auth-card {
+    padding: 30px;
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    margin: 8rem auto;
+}
+
+.auth-card h3 {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--color-777777);
+}
+
+.auth-card p {
+    font-size: 13px;
+    color: var(--color-777777);
+}
+
+.auth-card .form-control {
+    height: 50px;
+    background-color: var(--color-f5f5f7);
+    color: var(--color-777777);
+    font-size: 14px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.auth-card a {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--color-1c1c1b);
+}
+
+.login-pattern{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+
+.forgotpassword{
+    margin-top: .5rem;
+}
+
+.signup {
+    background-color: var(--color-febd69);
+    color: var(--color-131921);
+    border: none;
+}
+
+.signup:hover {
+    background-color: var(--color-131921);
+    color: white;
+}
